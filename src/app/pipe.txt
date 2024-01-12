@@ -1,0 +1,6 @@
+<h2>{{ title | uppercase }}</h2><!--Todas mayusculas-->
+<h2>{{ title | lowercase }}</h2> <!--Todas minusculas-->
+<h2>{{ title | titlecase }}</h2> <!--Formatea el codigo a letra inicial mayuscula-->
+<h2>{{ title | slice:7  }}...</h2> <!-- Corta las posisiones que le pasemos -->
+<h2>{{ title | slice:0:7 | titlecase  }}</h2> <!--Concatenar pipes-->
+ 
